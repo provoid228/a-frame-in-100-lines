@@ -43,7 +43,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           action: 'post_redirect',
-          label: 'Dog pictures',
+          label: 'Dog pics',
         },
       ],
       image: {
@@ -51,7 +51,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
-        page: state?.page + 5,
+        page: state?.page + 10,
         time: new Date().toISOString(),
       },
     }),
