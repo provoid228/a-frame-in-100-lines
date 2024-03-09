@@ -51,7 +51,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
-        page: state?.page + 1,
+        page: state?.page + 5,
         time: new Date().toISOString(),
       },
     }),
