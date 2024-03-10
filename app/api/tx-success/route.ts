@@ -18,7 +18,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/park-4.png`,
+        src: `${NEXT_PUBLIC_URL}/dog3.png`,
       },
     }),
   );
