@@ -7,11 +7,11 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Zzaza time',
+      label: 'Show your love',
     },
     {
       action: 'tx',
-      label: 'Send Base Sepolia',
+      label: 'Send Donation to Woofie',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
@@ -21,7 +21,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me a story',
+    text: 'Say Woof',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
