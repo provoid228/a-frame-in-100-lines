@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     ...frameMetadata,
   },
 };
-
+//reseted
 export default function Page() {
   return (
     <>
